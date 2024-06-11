@@ -5,6 +5,12 @@
 /* font-family: "Barlow", sans-serif;
 font-family: "Inter", sans-serif;
 font-family: "Playfair Display", serif; */
+h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+    font-size: 51px;
+    color: var(--color-text);
+}
 .container {
     width: 1276px;
     margin: 0 auto;
@@ -52,4 +58,69 @@ font-family: "Playfair Display", serif; */
 .menu__icon {
     padding-top: 15px;
     width: 2.2%;
+}
+
+.about {
+}
+.about__inner {
+}
+.about__info {
+    padding: 139px 101px 0px;
+    width: 691px;
+    height: 550px;
+    background-color: rgba(244, 246, 245, 0.9);
+    position: absolute;
+    inset: 282px 0px 0px 0px;
+}
+.about__title {
+    margin-bottom: 6px;
+}
+.about__text {
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+    font-size: 32px;
+    line-height: 141%;
+}
+.about__inner_bgc-block {
+    background: url(../img/Best\ Solution\ for\ your\ home.png) no-repeat;
+    background-size: cover;
+    min-height: 739px;
+    margin-left: 290px;
+}
+/* Services */
+.service {
+    background-color: rgba(37, 77, 77, 0.2);
+    padding-bottom: 64px;
+}
+.service__inner {
+    text-align: center;
+}
+.service__title {
+    padding-top: 16px;
+    margin-bottom: 45px;
+}
+.service__flex {
+    display: flex;
+    justify-content: space-between;
+}
+.service__item {
+    width: 27.5%;
+    color: var(--color-text);
+}
+.item__img {
+    margin-bottom: 3px;
+}
+.item__title {
+    font-weight: 900;
+    font-size: 27px;
+    text-align: center;
+    margin-bottom: 14px;
+}
+.item__text {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+.service__item p:first-of-type {
+    margin-bottom: 4px;
 }
